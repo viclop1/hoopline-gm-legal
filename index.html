@@ -76,19 +76,28 @@ app only — not any website or service it links to.</p>
     <td>Consent</td>
   </tr>
   <tr>
-    <td><strong>Purchase records</strong>: which product you bought, when, and the transaction
-        identifier the store gave it. <em>We never receive your card details</em> — the payment
-        happens inside Apple's or Google's store and we are only told the result.</td>
+    <td><strong>Purchase records</strong>: which product you bought, when, at what price, and the
+        transaction identifier the store gave it. <em>We never receive your card details</em> — the
+        payment happens inside Apple's or Google's store and we are only told the result.</td>
     <td>To credit what you paid for, to keep a subscription's status correct, and because tax
         law requires a record of a sale.</td>
     <td>Contract, and legal obligation</td>
   </tr>
   <tr>
-    <td><strong>Purchase consents</strong>: for each paid purchase, which product it was and the
-        time you agreed to immediate delivery and acknowledged that you lose your right of
-        withdrawal (for Premium, that you asked for it to start at once).</td>
-    <td>EU consumer law only lets the right of withdrawal end on delivery if you agree to it
-        beforehand, and we must be able to show that you did.</td>
+    <td><strong>Purchase consents</strong>: for each paid purchase, which product it was, the
+        language and version of the texts you were shown, and the time you ticked the two boxes —
+        requesting immediate supply (for Premium, that it start at once) and acknowledging what
+        that means for your right of withdrawal.</td>
+    <td>EU consumer law only lets the right of withdrawal end on delivery if you ask for it and
+        acknowledge it beforehand, and we must be able to show that you did.</td>
+    <td>Legal obligation</td>
+  </tr>
+  <tr>
+    <td><strong>Purchase confirmation emails</strong>: the email address your account has, and the
+        confirmation we send it after each paid purchase — what you bought, when, at what price,
+        and the consent you gave — with the time it was sent.</td>
+    <td>The law requires us to confirm the contract, including that consent, on a durable medium,
+        and to be able to show that we did.</td>
     <td>Legal obligation</td>
   </tr>
   <tr>
@@ -145,6 +154,7 @@ that hold or see data on our behalf:</p>
   <li><strong>Google</strong> — Firebase Cloud Messaging delivers push notifications; Google AdMob
       serves the rewarded ads; Google Play processes Android purchases.</li>
   <li><strong>Apple</strong> — processes iOS purchases and delivers push notifications on iOS.</li>
+  <li><strong>Resend</strong> — delivers the purchase confirmation emails.</li>
   <li><strong>PostHog</strong> — receives the product analytics and crash reports described
       above. We use its <strong>European Union</strong> hosting, so that data is processed inside
       the EEA and does not leave it.</li>
@@ -168,9 +178,20 @@ feature. You can reopen that form at any time from the app's settings.</p>
 
 <h2>4. How long we keep it</h2>
 
-<p>Your account and game data, including your age confirmation and your purchase consents, are
-kept for as long as the account exists. Delete the account and they are deleted with it. Purchase and tax records are kept for as long as tax law requires, which
-in Spain is currently four years, and are kept separately from your game data. Ad reward records
+<p>Your account and game data, including your age confirmation, are kept for as long as the
+account exists. Delete the account and they are deleted with it.</p>
+
+<p><strong>Purchase records, purchase consents and purchase confirmation emails are the
+exception.</strong> They are kept for <strong>five years from the purchase</strong>, whether or not
+the account still exists, because they are the evidence of a contract: five years is the general
+period in which a claim about it can be brought in Spain (Civil Code, art. 1964), and it also
+covers the four years tax law requires for a record of a sale. Once the account is deleted they are
+<strong>blocked</strong>: kept apart from everything else, not used for anything, and available only
+to establish, exercise or defend legal claims, or to courts and public authorities that are
+entitled to them (Spanish Data Protection Act, LOPDGDD, art. 32). After five years they are deleted
+automatically, unless a claim or a legal obligation still requires them.</p>
+
+<p> Ad reward records
 are kept for 30 days, which is what the daily limit needs, and then removed. Product analytics and
 crash reports are kept for up to 12 months and are then deleted; deleting your account stops any
 new ones being recorded, and you can ask us to remove the existing ones at the same time.</p>
@@ -196,7 +217,7 @@ not delete the account either way; the saved game lives on our servers so you ca
 on another device.</p>
 
 <p><strong>What is deleted.</strong> Everything the account is: your sign-in and password, your
-username and favourite team, your age confirmation and purchase consents, every league you created and every team, squad, fixture, result,
+username and favourite team, your age confirmation, every league you created and every team, squad, fixture, result,
 transfer and bid inside it, your achievements and trophies, your balances of coins, gems and
 energy, the cosmetics you own and have equipped, your push notification token, and the record of
 which rewarded ads you watched. Ask us at the same time and we will delete the analytics and crash
@@ -204,12 +225,10 @@ reports tied to your account identifier as well — those are held by a separate
 not go automatically. All of it goes at once, permanently, and none of it can be
 recovered afterwards.</p>
 
-<p><strong>What is kept, and for how long.</strong> One thing: the record of purchases you made —
-which product, when, and the transaction identifier Apple or Google gave it. Spanish tax law
-requires a seller to keep proof of a sale, currently for four years, and that obligation does not
-end because an account does. Those records carry no game data and no contact details, and once the
-account is deleted the identifier in them refers to nothing that still exists. They are erased when
-the retention period ends.</p>
+<p><strong>What is kept, and for how long.</strong> The evidence of your purchases, and nothing
+else: which product you bought, when, at what price and with which transaction identifier; the
+consent you gave before paying; and the confirmation email we sent you. They are kept blocked for
+five years from each purchase, as section 4 explains, carry no game data, and are then erased.</p>
 
 <p>If you think we have handled your data badly, you can complain to the Spanish data protection
 authority, the Agencia Española de Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>).</p>
@@ -217,9 +236,8 @@ authority, the Agencia Española de Protección de Datos (<a href="https://www.a
 <h2>6. Adults only</h2>
 
 <p>Hoopline GM is for adults. You must be 18 or older to create an account or play, and the
-app asks you to confirm it before you start, as a question of its own. We record when you
-confirmed (see section 1); that is your declaration, not a check of your identity or age. We do
-not knowingly collect data from anyone under 18. If you believe someone under 18 has created an account, write to us and we will
+app asks you to confirm it before you start. The app asks you to confirm that you are 18 or older, as a separate question, and records the date and time you confirmed. That confirmation is your declaration; we do not verify your identity or age. We do not knowingly collect data from
+anyone under 18. If you believe someone under 18 has created an account, write to us and we will
 delete it.</p>
 
 <h2>7. Storage on your device</h2>
